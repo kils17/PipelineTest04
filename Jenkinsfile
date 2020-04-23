@@ -34,8 +34,8 @@ pipeline {
         // 빌드가 성공시에 아래 명령어가 실행된다.
         success {
             // 워크스페이스 (clone된 프로젝트 폴더)가 삭제됨
-            //cleanWs()
-            echo 'don clean'
+            cleanWs()
+            //echo 'don clean'
         }
     }
 }
